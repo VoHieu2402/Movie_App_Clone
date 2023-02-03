@@ -1,0 +1,47 @@
+@use "../../../scss/" as *;
+
+.ant-tabs {
+    margin-top: 100px;
+    .ant-tabs-nav {
+        .ant-tabs-tab {
+            color: $black;
+            background-color: $white;
+            font-weight: $font-weight-1;
+            margin: 0px 10px
+        }
+
+        .ant-tabs-tab-active {
+            color: $white;
+            background-color: $main-color;
+            border-bottom-color: $main-color !important;
+            .ant-tabs-tab-btn {
+                color: $white;
+            }
+        }
+
+    }
+
+    .ant-tabs-content-holder {
+        .ant-tabs-content {
+            .ant-card {
+                transition: 0.3s;
+                font-weight: 700;
+                &:hover {
+                    scale: 1.1;
+                    z-index: 10;
+                }
+            }
+            .ant-pagination {
+                color: white !important;
+                font-weight: 700;
+                .ant-pagination-item-active {
+                    color: black;
+                }
+                button {
+                    color: white !important;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

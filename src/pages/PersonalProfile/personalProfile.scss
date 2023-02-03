@@ -1,0 +1,39 @@
+@use "../../scss/" as *;
+
+.myProfile {
+    .desc {
+        color: $main-color;
+    }
+    .user-info {
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .desc {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    .myCart {
+        .movieName, .movieTheatre {
+            .title {
+                font-size: 25px;
+                font-weight: 600;
+            }
+            .desc {
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+        .infoTicket {
+            .title {
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .desc {
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+export let urlPhongVe = "https://movie0706.cybersoft.edu.vn/api/QuanLyDatVe/LayDanhSachPhongVe?MaLichChieu=";

@@ -1,0 +1,54 @@
+@use "../../../scss/" as *;
+
+
+.cinema-list {
+    .ant-tabs {
+        margin: 100px;
+        padding: 0px 50px;
+        .ant-tabs-nav {
+            .ant-tabs-nav-list {
+                .ant-tabs-tab {
+                    margin: 10px 0 !important;
+                }
+                .ant-tabs-ink-bar {
+                    height: 0 !important;
+                }
+            }
+        }
+        .ant-tabs-content {
+            .cinemaBranch{
+                .ant-table-body {
+                    height: 350px;
+                    max-height: none !important;
+                    .ant-card {
+                        opacity: 0.4;
+                        &.active-CGV {
+                            opacity: 1;
+                        }
+                        &.active-BHDStar {
+                            opacity: 1;
+                        }
+                        &.active-Galaxy {
+                            opacity: 1;
+                        }
+                        &.active-MegaGS {
+                            opacity: 1;
+                        }
+                        &.active-CineStar {
+                            opacity: 1;
+                        }
+                        &.active-LotteCinima {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .cinemaShowTime {
+                .ant-table-body {
+                    height: 350px;
+                    max-height: none !important;
+                }
+            }
+        }
+    }
+}
